@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 12px;
+    background-color: rgb(55, 51, 51);
+    color: #ffff;
+}
+/* ######### new_user ######## */
+ .container{
+  display:flex;
+  flex-direction: row;
+ }
+ .input-container{
+  display: flex;
+  flex-direction:column;
+ }
+
+
+input[type=text],input[type=number]{
+    border: 1px solid #ffff;
+    height: 5vh;
+    border-radius: 10px;
+    color: #ffff;
+}
+.Add-btn{
+    background-color: #ffff;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.success{
+color: green;
+font-size: 18px;
+}
+.error{
+color: green;
+font-size: 18px;
+}
+.AddedEmployee-container{
+    display: flex;
+    flex-direction: column;
+}
+.updateOnui{
+    display: flex;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+}
+.addData{
+    display: flex;
+}
+.delet-btn{
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    border-radius:10px ;
+    cursor:pointer;
+}
