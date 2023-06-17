@@ -58,7 +58,7 @@ document.getElementById('employeeForm').addEventListener('submit',(e)=>{
    let name=document.getElementById('name').value;
    let profession=document.getElementById('profession').value;
    let age=document.getElementById('age').value;
- if(name.trim()==='' || profession.trim()===''||age.trim()===''){
+ if(name.trim()==='' || profession.trim()===''){
    showMessage('please fill all fields','error');
  }
  else{
