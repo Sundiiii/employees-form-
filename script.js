@@ -6,7 +6,7 @@ function generateID(){
 }
 // function create object and push to array
 function addedEmployee(name,profession,age){
-   console.log(name);
+   // console.log(name);
 let employe={
    id:generateID(),
    name:name,
@@ -26,7 +26,7 @@ function showMessage(messageStr,className){
 function displayemployeData(){
    const addedEmployee_container=document.querySelector('.AddedEmployee-container');
    addedEmployee_container.innerHTML='';
-   console.log(employees);
+   // console.log(employees);
    employees.forEach((employe)=>{
     const updateOnui=document.createElement('div');
     const button=document.createElement('button');
